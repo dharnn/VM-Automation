@@ -1,0 +1,28 @@
+# Vagrant local files
+.vagrant/
+
+# Virtual machine files
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+*.ova
+*.ovf
+
+# Logs
+*.log
+
+# Secrets and private keys
+*.pem
+*.key
+*.pfx
+*.p12
+*.env
+.env.*
+
+# Local VM configuration
+vm.json
+
+# Temporary files
+*.tmp
+*.bak
